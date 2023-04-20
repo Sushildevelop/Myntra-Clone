@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /*  */
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.containerHeader {
+    border: 2px solid black;
+    /* background-image: linear-gradient(to left, rgb(216, 167, 167), rgb(164, 164, 227)); */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-div ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-div ul li {
+    margin: 15px;
+}
+
+.nav-div ul li a {
+    font-size: 16px;
+}
+
+.nav-div ul li a:hover {
+    color: rgb(87, 87, 228);
+    font-size: 20px;
+}
+
+.nav-div2 input:hover {
+    border: 3px solid black;
+}
+
+.rightBox .profile:hover {
+    color: rgb(87, 87, 228);
+    font-size: 20px;
+}
+
+.rightBox .wishlist:hover {
+    color: rgb(87, 87, 228);
+    font-size: 20px;
+}
+
+.rightBox .bag:hover {
+    color: rgb(87, 87, 228);
+    font-size: 20px;
+}
+
+.nav-div img {
+    /* border-radius: 20px; */
+}
+
+li {
+    list-style: none;
+}
+
+.nav-div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.rightBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.search {
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+.slideshow-container {
+    width: 100vw;
+}
+
+.mySlides {
+    width: 99.5%;
+}
+
+
+/* hover of view all button */
+
+.btn1:hover {
+    color: rgb(101, 41, 231);
+    font-weight: 600;
+    border: 3px solid black;
+    background-color: rgb(225, 156, 156);
+}
+
+img {
+    width: 99%;
+}
+
+img[alt="myn-logo"] {
+    width: 50px;
+    height: 50px;
+}
+
+img[alt="lotus"] {
+    width: 80px;
+    height: 50px;
+}
+
+img[alt="play"] {
+    width: 50px;
+    height: 50px;
+}
+
+img[alt="day-to-deal"] {
+    width: 99%;
+}
+
+img[alt="apple"] {
+    width: 200px;
+    height: 60px;
+}
+
+.section2-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.crazy-deals {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.para-1 {
+    color: rgb(215, 29, 8);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.btn1 {
+    width: 100px;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.section3-div1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section4-div1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section5-div1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section6-div1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* // footer */
+
+img[alt="copy"] {
+    height: 20px;
+    width: 20px;
+}
+
+.footer-class {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(250, 248, 248);
+}
+
+.footer-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.Moblie-app-footer {
+    margin-right: 20px;
+}
+
+.play-store-footer {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.google-play {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    background-color: black;
+}
+
+.google-play a {
+    margin-top: 5px;
+}
+
+.google-play p {
+    color: white;
+    margin-left: 15px;
+}
+
+.google-play img {
+    margin-left: 10px;
+}
+
+.keep-in-touch {
+    margin-top: 20px;
+}
+
+.keep-in-touch a {
+    margin-top: 10px;
+}
+
+.h2-heading {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(239, 110, 110);
+}
+
+.Online-Shop-footer h2:hover {
+    color: darkolivegreen;
+}
+
+.customer-pol-footer h2:hover {
+    color: darkolivegreen;
+}
+
+.Moblie-app-footer h2:hover {
+    color: darkolivegreen;
+}
+
+
+/* // Media Query */
+
+
+/* 
+          Larger Screen: 1440px
+          Normal Screen: 1024px
+          Tablet Screen: 768px
+          Mobile Screen: 425px
+*/
+
+@media screen and (max-width:425px) {
+    .containerHeader {
+        width: 1000px;
+    }
+    .nav-div {
+        margin-right: 30px;
+    }
+    .nav-div ul li {
+        margin: 10px;
+    }
+    .nav-div ul li a {
+        font-size: 14px;
+    }
+    .search {
+        padding: 10px;
+        width: 150px;
+        height: 20px;
+    }
+    .rightBox {
+        gap: 15px;
+    }
+    * {
+        font-size: 12px;
+    }
+    /* .slideshow-container {
+        width: 200vw;
+    } */
+    img {
+        width: 1500px;
+    }
+    .footer-div1 {
+        margin: 10px;
+    }
+    .Online-Shop-footer {
+        margin-right: 12px;
+    }
+    .customer-pol-footer {
+        margin-right: 5px;
+    }
+    .Moblie-app-footer {
+        margin-left: 6px;
+    }
+    .section2-div1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    .containerHeader {
+        width: 750px;
+    }
+    .nav-div {
+        margin-right: 30px;
+    }
+    .nav-div ul li {
+        margin: 4px;
+    }
+    .nav-div ul li a {
+        font-size: 12px;
+    }
+    .nav-div2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+    }
+    .search {
+        width: 200px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .rightBox {
+        gap: 10px;
+    }
+    .footer-div1 {
+        margin: 17px;
+    }
+    .Online-Shop-footer {
+        margin-right: 10px;
+    }
+    .customer-pol-footer {
+        margin-right: -1px;
+    }
+    .Moblie-app-footer {
+        margin-left: 4px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .containerHeader {
+        width: 100%;
+    }
+    .nav-div {
+        margin-right: 20px;
+    }
+    .nav-div ul li {
+        margin: 5px;
+    }
+    .rightBox {
+        gap: 10px;
+    }
+    .search {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {}

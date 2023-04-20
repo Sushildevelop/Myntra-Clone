@@ -1,0 +1,1 @@
+I have developed this website by using HTML , CSS AND JAVASCRIPT. I have also used media queries to make the website fully responsive.
